@@ -16,8 +16,8 @@ class BinVect
 		int get(char**);
 		int get_number();
 		void print();
-		BinVect operator+=(const BinVect&);
-		BinVect operator-=(const BinVect&);
+		BinVect& operator+=(const BinVect&);
+		BinVect& operator-=(const BinVect&);
 		BinVect operator+(const BinVect&);
 		BinVect operator-(const BinVect&);
 
